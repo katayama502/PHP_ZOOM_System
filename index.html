@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="title">
+        <h1>入力画面</h1>
+      </div>
+      <!-- フォームタグで囲むことでこの内部に入力する内容をどこにどのような通信で送るかを定められる！ -->
+      <form action="top.php" method="POST">
+          <p>ニックネーム</p>
+          <input type="text" name="view_name">
+          <p>趣味</p>
+          <input type="text" name="hobby">
+          <p>好きな食べ物</p>
+          <input type="text" name="food">
+          <p>学習目標</p>
+          <input type="text" name="goal">
+        <input type="submit" name="btn_submit">
+      </form>
+</body>
+</html>

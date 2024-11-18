@@ -1,0 +1,57 @@
+body {
+    font-family: 'Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+    color: #18ddc3;
+    background: #ffffff;
+    margin: auto;
+    width: 100%;
+  }
+  form {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+  }
+  p {
+    text-align: left;
+  }
+  input[type="text"] {
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 86%;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #fff;
+    width: 100%;
+  }
+  input[type="submit"] {
+    appearance: none;
+    -webkit-appearance: none;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 86%;
+    line-height: 1.0em;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #37a1e5;
+  }
+  h1 {
+    text-align: center;
+  }
+  hr {
+    display:block;
+    height:1px;
+    border:0;
+  }
+  .card {
+    margin-top: 20%;
+    margin-left: 7%;
+  }
+  .date {
+    text-align: right;
+    font-size: 60%;
+  }
+
+  .body_main{
+    background-image: url(./tech.jpg);
+  }
